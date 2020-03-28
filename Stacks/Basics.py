@@ -1,4 +1,4 @@
-class Staack:
+class Staack:  #Last in Last Out
     def __init__(self): #Initialize constructor
         self.items=[]
 
@@ -7,7 +7,7 @@ class Staack:
 
     def pop(self):
         if not self.is_empty():
-            self.items.pop()
+           return self.items.pop()
 
     def is_empty(self):
         return len(self.items)==0
@@ -26,6 +26,7 @@ stack = Staack()
 i=0
 while(i<5):
  stack.push(i)
+ print(stack.items)
  i+=1
 
 print(stack.items)
@@ -33,6 +34,7 @@ print(stack.peak())
 
 while(len(stack)>0):
     stack.pop()
+    print(stack.items)
 
 stack.push(100)
 print(stack.items)
