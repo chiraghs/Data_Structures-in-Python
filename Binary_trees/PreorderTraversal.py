@@ -1,5 +1,6 @@
 #                              Three types of traversal
-#            |                               |                                  |
+#                                   DepthFirst-search                                        &&   BreadthSearchTraversal
+#             |                               |                                  |
 #     in-order traversal           **pre-order traversal**                post-order traversal
 #
 #  left --> root --> right         root --> left --> right               left --> right --> root
@@ -31,6 +32,5 @@ tree.root.left=Node(2)
 tree.root.right=Node(3)
 tree.root.left.left=Node(4)
 tree.root.left.right=Node(5)
-
 
 print(tree.print_tree('preorder'))
