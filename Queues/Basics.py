@@ -1,4 +1,4 @@
-class Queue:
+class Queue:  # First in First Out
     def __init__(self):
         self.items=[]
 
