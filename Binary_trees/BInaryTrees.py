@@ -16,3 +16,4 @@ tree.root.left.left=Node(4)
 tree.root.left.right=Node(5)
 
 print(tree.root.value)
+print(tree.value)
