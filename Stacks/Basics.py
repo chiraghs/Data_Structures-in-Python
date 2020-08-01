@@ -1,4 +1,4 @@
-class Staack:  #Last in Last Out
+class Staack:  #Last in first Out
     def __init__(self): #Initialize constructor
         self.items=[]
 
@@ -38,3 +38,4 @@ while(len(stack)>0):
 
 stack.push(100)
 print(stack.items)
+print(stack.pop())

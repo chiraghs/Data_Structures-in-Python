@@ -17,7 +17,7 @@ class Queue:  # First in First Out
             return self.items[-1]
 
     def size(self):
-        return len(self.items) 
+        return len(self.items)
 
     def __len__(self):
         return self.size()
@@ -37,4 +37,4 @@ while(len(queue)>0):
     print(queue.items)
 
 queue.enqueue(100)
-print(queue.items)                 
+print(queue.items)
